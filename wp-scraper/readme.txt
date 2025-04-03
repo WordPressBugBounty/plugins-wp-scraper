@@ -2,7 +2,7 @@
 Contributors: Rico Macchi
 Tags: wp scraper, website migration, content scraper, website copier, content migration
 Requires at least: 4.7
-Tested up to: 6.5.5
+Tested up to: 6.6
 Stable tag: 5.8.1
 Requires PHP: 7.0
 License: GPLv2 or later
@@ -181,3 +181,5 @@ Select an image from the source page or add your own.
 = Version 5.8 =
 
 *Fixed selection for post type
+
+* Tested for compatibility with WordPress 6.6

@@ -2,7 +2,6 @@
 
 jQuery(document).ready(function($) {
 
-
 	$('input[name=fix]').change(function(){
         if ($(this).is(':checked')) {
 			$('input[name=title]').addClass('fixes');
@@ -14,7 +13,6 @@ jQuery(document).ready(function($) {
 			$('input[name=title_suffix]').hide();
 		}
 	});
-
 
 	$('.admin_page_wp-scraper-add-menu #toplevel_page_wp-scraper').removeClass('wp-not-current-submenu');
 	$('.admin_page_wp-scraper-add-menu #toplevel_page_wp-scraper').addClass('wp-has-current-submenu');
@@ -142,7 +140,6 @@ jQuery(document).ready(function($) {
 		if (status == 'pending') var display = 'Pending Review';
 		$('#post-status-display').html(display);
 	});
-
 
 	$('.save-post-type').click(function(e) {
 		e.preventDefault();

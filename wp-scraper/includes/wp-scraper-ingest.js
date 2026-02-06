@@ -1,6 +1,7 @@
 (function($) {
 
 jQuery(document).ready(function($) {
+
 	var this_path = '';
 	var html_code = '';
     var pg_imgs = [];
@@ -475,12 +476,8 @@ jQuery(document).ready(function($) {
 
 			html_code += jQuery(nthis).get(0).outerHTML;
 
-
-
         }
 		});
-
-
 
 		$('*').removeClass('wpscraper-hover');
 		$('*').removeClass('wpscraper-selected');

@@ -1,9 +1,9 @@
 === WP Scraper ===
-Contributors: Rico Macchi
+Contributors: Robert Macchi
 Tags: wp scraper, website migration, content scraper, website copier, content migration
 Requires at least: 4.7
-Tested up to: 6.6
-Stable tag: 5.8.1
+Tested up to: 6.9
+Stable tag: 5.8.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -178,8 +178,10 @@ Select an image from the source page or add your own.
 * Updated to latest Wordpress Standards
 * Tested for compatibility with WordPress 6.5
 
-= Version 5.8 =
+= Version 5.8.2 =
 
-*Fixed selection for post type
+* Security fixes
+* Updated to latest Wordpress Standards
+* Tested for compatibility with WordPress 6.9
 
-* Tested for compatibility with WordPress 6.6
+
